@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{acc8cb01-70a4-4cc6-9d88-d32134c13a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{81ef0d09-364b-467c-92b5-68b9438212f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{8f2c2318-9b69-434a-838a-8649fb3d732d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{16fac473-44a9-4f96-870f-27a66bc8d31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{7fcd4216-76a8-48f1-a13f-4afb68ded7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Util">
+      <UniqueIdentifier>{7d7b862c-abb8-408f-a500-97d6ced2a4fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{511868d2-4d81-4fc3-bf82-6322d9df63e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{6110c452-b2ac-48e8-ac0c-90e7d5151e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Object">
+      <UniqueIdentifier>{b68ff02c-6821-4267-9560-d6ff2c76c0ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager\cpp">
+      <UniqueIdentifier>{77b03ab3-11c7-4599-895b-f20124bf56ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager\header">
+      <UniqueIdentifier>{1ad6e989-24b4-440d-a2fe-7e20af8dc749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Object\Component">
+      <UniqueIdentifier>{bb1fdd11-1a54-448c-8650-a78c968369b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Object\Component\cpp">
+      <UniqueIdentifier>{b0910d0b-bbd1-4966-a366-dc3ee1e6ba7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Metrix">
+      <UniqueIdentifier>{1df28ea1-f73c-49c6-9df3-7d7af41f9860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\ObjectPool">
+      <UniqueIdentifier>{4ca1d902-f8ce-4dd4-bd64-fe87d373a08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Object\Component\header">
+      <UniqueIdentifier>{126cfdf4-4201-448a-8695-e32eaa02db08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Object\Tile">
+      <UniqueIdentifier>{106b0c3d-59b3-4f1c-bcd2-0779441b83c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\MapTool">
+      <UniqueIdentifier>{4f183df9-7dee-411b-a752-cf66aa8b113f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Start">
+      <UniqueIdentifier>{46eefbbd-5e0e-4ee3-9b0c-fb0d6bbdb874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Test">
+      <UniqueIdentifier>{b2e24c08-1686-43c3-90dd-d5c395430b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\procedural">
+      <UniqueIdentifier>{aadf05ca-1eca-4688-a279-5fcdb4f17fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Particle">
+      <UniqueIdentifier>{c303fe34-0735-4582-ae60-5e5ee49a0d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\BSP">
+      <UniqueIdentifier>{f8ebb173-cd59-4a61-89f2-b73c3d804fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager\Button">
+      <UniqueIdentifier>{ae7f7a84-2230-4243-8bc7-aa6c518f485d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Enemy">
+      <UniqueIdentifier>{e5261a87-3d26-4b7d-b7f2-ab76d4ffa30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Ability">
+      <UniqueIdentifier>{7bab9707-ec5a-42d1-929d-b23bac5ac797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Player">
+      <UniqueIdentifier>{f68427e6-5de5-4fc9-bc4c-102aeddbc296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\ProgressBar">
+      <UniqueIdentifier>{7343fc74-e38a-4ef0-84ef-1dc7b4fe859f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Skill">
+      <UniqueIdentifier>{cd3ea119-ccca-43ea-8a40-2d9bd6257b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager\Mouse">
+      <UniqueIdentifier>{b6e7d06c-961a-449c-a267-caab390f5e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Skill\Player">
+      <UniqueIdentifier>{5fbf3bca-2264-47fe-a5db-f63af41002a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Skill\Enemy">
+      <UniqueIdentifier>{7d398713-bec3-4e5a-9a14-ec958758442f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\UI">
+      <UniqueIdentifier>{c1f51e9b-05e3-4978-8aa7-47e504db78b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Effect">
+      <UniqueIdentifier>{22c66131-7f9a-4c7f-b064-8b12e0783eab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="windowAPI.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxWorldManager.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>2DGameFramework\Object\Component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.hpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x2.h">
+      <Filter>2DGameFramework\Metrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>2DGameFramework\Metrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>2DGameFramework\Object\Component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>2DGameFramework\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.hpp">
+      <Filter>2DGameFramework\ObjectPool</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>2DGameFramework\Object\Component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsBody.h">
+      <Filter>2DGameFramework\Object\Component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>2DGameFramework\Object\Component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>2DGameFramework\Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Astar.h">
+      <Filter>2DGameFramework\Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="omega.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Maptool.h">
+      <Filter>2DGameFramework\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawComponent.h">
+      <Filter>2DGameFramework\Object\Component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonManager.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>playGround\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct2D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="UiObject.h">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="UiObject.hpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>2DGameFramework\Object\Component\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>playGround\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralTest.h">
+      <Filter>playGround\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>playGround\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="MousePointer.h">
+      <Filter>2DGameFramework\Manager\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>2DGameFramework\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.hpp">
+      <Filter>2DGameFramework\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>2DGameFramework\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="BSP_TestScene.h">
+      <Filter>playGround\BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="BspNode.h">
+      <Filter>playGround\BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="Probe.h">
+      <Filter>playGround\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>playGround\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyState.h">
+      <Filter>playGround\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>playGround\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomScript.h">
+      <Filter>playGround\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability.h">
+      <Filter>playGround\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="Rogue.h">
+      <Filter>playGround\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomScript.h">
+      <Filter>playGround\procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorcerer.h">
+      <Filter>playGround\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>playGround\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>playGround\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressBar.h">
+      <Filter>2DGameFramework\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>playGround\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerScript.h">
+      <Filter>playGround\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>2DGameFramework\Manager\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyScript.h">
+      <Filter>playGround\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaosCircle.h">
+      <Filter>playGround\Skill\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBall.h">
+      <Filter>playGround\Skill\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="WindBoomerang.h">
+      <Filter>playGround\Skill\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="IceBall.h">
+      <Filter>playGround\Skill\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillObject.h">
+      <Filter>playGround\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAtkScript.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillScript.h">
+      <Filter>playGround\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="UiManager.h">
+      <Filter>playGround\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>playGround\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>playGround\Effect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="windowAPI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>2DGameFramework\Manager\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>2DGameFramework\Manager\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>2DGameFramework\Object\Component\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>2DGameFramework\Manager\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x2.cpp">
+      <Filter>2DGameFramework\Metrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>2DGameFramework\Metrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>2DGameFramework\Object\Component\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>2DGameFramework\ObjectPool</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>2DGameFramework\Object\Component\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsBody.cpp">
+      <Filter>2DGameFramework\Object\Component\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>2DGameFramework\Object\Component\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>2DGameFramework\Manager\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>2DGameFramework\Manager\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>2DGameFramework\Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Astar.cpp">
+      <Filter>2DGameFramework\Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Maptool.cpp">
+      <Filter>2DGameFramework\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawComponent.cpp">
+      <Filter>2DGameFramework\Object\Component\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonManager.cpp">
+      <Filter>2DGameFramework\Manager\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>playGround\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct2D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UiObject.cpp">
+      <Filter>2DGameFramework\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>2DGameFramework\Object\Component\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>playGround\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralTest.cpp">
+      <Filter>playGround\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>playGround\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxWorldManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MousePointer.cpp">
+      <Filter>2DGameFramework\Manager\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>2DGameFramework\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>2DGameFramework\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="BSP_TestScene.cpp">
+      <Filter>playGround\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="BspNode.cpp">
+      <Filter>playGround\BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="Probe.cpp">
+      <Filter>playGround\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>playGround\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyState.cpp">
+      <Filter>playGround\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>playGround\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomScript.cpp">
+      <Filter>playGround\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Ability.cpp">
+      <Filter>playGround\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="Rogue.cpp">
+      <Filter>playGround\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomScript.cpp">
+      <Filter>playGround\procedural</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorcerer.cpp">
+      <Filter>playGround\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>playGround\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>playGround\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressBar.cpp">
+      <Filter>2DGameFramework\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>playGround\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerScript.cpp">
+      <Filter>playGround\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>2DGameFramework\Manager\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyScript.cpp">
+      <Filter>playGround\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaosCircle.cpp">
+      <Filter>playGround\Skill\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBall.cpp">
+      <Filter>playGround\Skill\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="WindBoomerang.cpp">
+      <Filter>playGround\Skill\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="IceBall.cpp">
+      <Filter>playGround\Skill\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillObject.cpp">
+      <Filter>playGround\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAtkScript.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillScript.cpp">
+      <Filter>playGround\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="UiManager.cpp">
+      <Filter>playGround\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>playGround\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>playGround\Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="windowAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
