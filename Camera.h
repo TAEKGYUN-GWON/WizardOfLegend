@@ -45,8 +45,6 @@ private:
 private:
 
 	void ShakingCamera();
-
-public:
 	Camera()
 	{
 		//_scaleMatrix = Matrix3x2F::Identity();
@@ -73,8 +71,14 @@ public:
 		_isMoving = false;
 		_isShaking = false;
 	};
+public:
+	
 	~Camera() {};
-
+	static Camera* GetInstance()
+	{
+		static Camera* instance = new Camera();
+		return instance;
+	}
 	HRESULT init();
 	void Update();
 	void Control();

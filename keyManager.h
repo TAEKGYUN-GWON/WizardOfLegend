@@ -1,21 +1,24 @@
 #pragma once
-#include "singletonBase.h"
 #include <bitset>
 
 #define KEYMAX 256
 
 using namespace std;
 
-class keyManager : public singletonBase<keyManager>
+class keyManager
 {
 private:
 	bitset<KEYMAX> _keyUp;
 	bitset<KEYMAX> _keyDown;
+	keyManager();
 
 public:
-	keyManager();
 	~keyManager();
-
+	static keyManager* GetInstance()
+	{
+		static keyManager* instance = new keyManager();
+		return instance;
+	}
 	HRESULT init();
 	void release();
 

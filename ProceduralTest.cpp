@@ -1019,7 +1019,7 @@ void ProceduralTest::SetPhysics()
 
 void ProceduralTest::SetPlayer()
 {
-	if (_player) return;
+	if (_player != NULL) return;
 	int rand = RND->getInt(subRooms.size());
 	_player = Object::CreateObject<Player>();
 	_player->Init(subRooms[rand]->GetTrans()->GetPos());

@@ -44,7 +44,7 @@ T* Object::CreateObject(Object* parent)
 
     if (parent == nullptr)
         //Obj->SetParent(SCENEMANAGER->GetNowScene());
-        Obj->SetParent(sceneManager::getSingleton()->GetNowScene());
+        Obj->SetParent(sceneManager::GetInstance()->GetNowScene());
     else
         Obj->SetParent(parent);
 

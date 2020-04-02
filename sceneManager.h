@@ -1,10 +1,9 @@
 #pragma once
-#include "singletonBase.h"
 #include <map>
 
 class Scene;
 
-class sceneManager : public singletonBase<sceneManager>
+class sceneManager
 {
 public:
 	typedef map<string, Scene*>				mapSceneList;
@@ -14,11 +13,16 @@ private:
 	static Scene* _currentScene;
 	mapSceneList _mSceneList;
 	bool _isFirstInit = true;
+	sceneManager();
 
 public:
-	sceneManager();
 	~sceneManager();
 
+	static sceneManager* GetInstance()
+	{
+		static sceneManager* instance = new sceneManager();
+		return instance;
+	}
 	HRESULT init();
 	void release();
 	void update();

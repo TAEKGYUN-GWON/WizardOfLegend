@@ -1,18 +1,18 @@
 #pragma once
-#include "singletonBase.h"
 #include <time.h>
 
-class randomFunction : public singletonBase<randomFunction>
+class randomFunction
 {
-public:
+private:
 	randomFunction()
 	{
 		srand(GetTickCount());
 	}
-	~randomFunction()
-	{
+public:
 
-	}
+	~randomFunction() {}
+
+	static randomFunction* GetInstance();
 
 	//===============  정수형 난수 =======================
 

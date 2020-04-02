@@ -1,6 +1,5 @@
 #pragma once
 #include "Effect.h"
-#include "singletonBase.h"
 
 class EffectPool
 {
@@ -24,12 +23,17 @@ public:
 };
 
 
-class EffectManager : public singletonBase<EffectManager>
+class EffectManager 
 {
 private:
 	EffectPool* pool;
-public:
 	EffectManager() { pool = new EffectPool; }
+public:
+	static EffectManager* GetInstance()
+	{
+		static EffectManager* instance = new EffectManager();
+		return instance;
+	}
 	void Init();
 	void Update();
 	void Release();

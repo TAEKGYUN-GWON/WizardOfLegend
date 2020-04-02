@@ -40,12 +40,6 @@
     <Filter Include="2DGameFramework\Object">
       <UniqueIdentifier>{b68ff02c-6821-4267-9560-d6ff2c76c0ca}</UniqueIdentifier>
     </Filter>
-    <Filter Include="2DGameFramework\Manager\cpp">
-      <UniqueIdentifier>{77b03ab3-11c7-4599-895b-f20124bf56ca}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="2DGameFramework\Manager\header">
-      <UniqueIdentifier>{1ad6e989-24b4-440d-a2fe-7e20af8dc749}</UniqueIdentifier>
-    </Filter>
     <Filter Include="2DGameFramework\Object\Component">
       <UniqueIdentifier>{bb1fdd11-1a54-448c-8650-a78c968369b4}</UniqueIdentifier>
     </Filter>
@@ -150,38 +144,14 @@
     <ClInclude Include="Object.h">
       <Filter>2DGameFramework\Object</Filter>
     </ClInclude>
-    <ClInclude Include="keyManager.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
-    </ClInclude>
-    <ClInclude Include="soundManager.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
-    </ClInclude>
-    <ClInclude Include="timeManager.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
-    </ClInclude>
-    <ClInclude Include="sceneManager.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
-    </ClInclude>
     <ClInclude Include="Graphic.h">
       <Filter>2DGameFramework\image</Filter>
-    </ClInclude>
-    <ClInclude Include="PhysicsManager.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
-    </ClInclude>
-    <ClInclude Include="BoxWorldManager.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
-    </ClInclude>
-    <ClInclude Include="GraphicsManager.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
     </ClInclude>
     <ClInclude Include="Component.h">
       <Filter>2DGameFramework\Object\Component\header</Filter>
     </ClInclude>
     <ClInclude Include="Object.hpp">
       <Filter>2DGameFramework\Object</Filter>
-    </ClInclude>
-    <ClInclude Include="Camera.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
     </ClInclude>
     <ClInclude Include="Matrix2x2.h">
       <Filter>2DGameFramework\Metrix</Filter>
@@ -213,14 +183,8 @@
     <ClInclude Include="Sprite.h">
       <Filter>2DGameFramework\Object\Component\header</Filter>
     </ClInclude>
-    <ClInclude Include="ObjectManager.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
-    </ClInclude>
     <ClInclude Include="Scene.h">
       <Filter>2DGameFramework</Filter>
-    </ClInclude>
-    <ClInclude Include="iniDataManager.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
     </ClInclude>
     <ClInclude Include="Tile.h">
       <Filter>2DGameFramework\Object\Tile</Filter>
@@ -236,9 +200,6 @@
     </ClInclude>
     <ClInclude Include="DrawComponent.h">
       <Filter>2DGameFramework\Object\Component\header</Filter>
-    </ClInclude>
-    <ClInclude Include="JsonManager.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
     </ClInclude>
     <ClInclude Include="StartScene.h">
       <Filter>playGround\Start</Filter>
@@ -266,9 +227,6 @@
     </ClInclude>
     <ClInclude Include="Room.h">
       <Filter>playGround\procedural</Filter>
-    </ClInclude>
-    <ClInclude Include="MousePointer.h">
-      <Filter>2DGameFramework\Manager\header</Filter>
     </ClInclude>
     <ClInclude Include="Particle.h">
       <Filter>2DGameFramework\Particle</Filter>
@@ -363,6 +321,39 @@
     <ClInclude Include="EffectManager.h">
       <Filter>playGround\Effect</Filter>
     </ClInclude>
+    <ClInclude Include="BoxWorldManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MousePointer.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -383,32 +374,11 @@
     <ClCompile Include="Object.cpp">
       <Filter>2DGameFramework\Object</Filter>
     </ClCompile>
-    <ClCompile Include="keyManager.cpp">
-      <Filter>2DGameFramework\Manager\cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="soundManager.cpp">
-      <Filter>2DGameFramework\Manager\cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="timeManager.cpp">
-      <Filter>2DGameFramework\Manager\cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="sceneManager.cpp">
-      <Filter>2DGameFramework\Manager\cpp</Filter>
-    </ClCompile>
     <ClCompile Include="Graphic.cpp">
       <Filter>2DGameFramework\image</Filter>
     </ClCompile>
-    <ClCompile Include="PhysicsManager.cpp">
-      <Filter>2DGameFramework\Manager\cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="GraphicsManager.cpp">
-      <Filter>2DGameFramework\Manager\cpp</Filter>
-    </ClCompile>
     <ClCompile Include="Component.cpp">
       <Filter>2DGameFramework\Object\Component\cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="Camera.cpp">
-      <Filter>2DGameFramework\Manager\cpp</Filter>
     </ClCompile>
     <ClCompile Include="Matrix2x2.cpp">
       <Filter>2DGameFramework\Metrix</Filter>
@@ -437,14 +407,8 @@
     <ClCompile Include="Sprite.cpp">
       <Filter>2DGameFramework\Object\Component\cpp</Filter>
     </ClCompile>
-    <ClCompile Include="ObjectManager.cpp">
-      <Filter>2DGameFramework\Manager\cpp</Filter>
-    </ClCompile>
     <ClCompile Include="Scene.cpp">
       <Filter>2DGameFramework</Filter>
-    </ClCompile>
-    <ClCompile Include="iniDataManager.cpp">
-      <Filter>2DGameFramework\Manager\cpp</Filter>
     </ClCompile>
     <ClCompile Include="Tile.cpp">
       <Filter>2DGameFramework\Object\Tile</Filter>
@@ -457,9 +421,6 @@
     </ClCompile>
     <ClCompile Include="DrawComponent.cpp">
       <Filter>2DGameFramework\Object\Component\cpp</Filter>
-    </ClCompile>
-    <ClCompile Include="JsonManager.cpp">
-      <Filter>2DGameFramework\Manager\cpp</Filter>
     </ClCompile>
     <ClCompile Include="StartScene.cpp">
       <Filter>playGround\Start</Filter>
@@ -487,9 +448,6 @@
     </ClCompile>
     <ClCompile Include="BoxWorldManager.cpp">
       <Filter>2DGameFramework\Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="MousePointer.cpp">
-      <Filter>2DGameFramework\Manager\cpp</Filter>
     </ClCompile>
     <ClCompile Include="Particle.cpp">
       <Filter>2DGameFramework\Particle</Filter>
@@ -580,6 +538,39 @@
     </ClCompile>
     <ClCompile Include="EffectManager.cpp">
       <Filter>playGround\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="randomFunction.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MousePointer.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -76,8 +76,8 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmd
 		else
 		{
 			TIMEMANAGER->update(60.0f);
-			sceneManager::getSingleton()->GetNowScene()->PhysicsUpdate();
-			sceneManager::getSingleton()->GetNowScene()->Update();
+			sceneManager::GetInstance()->GetNowScene()->PhysicsUpdate();
+			sceneManager::GetInstance()->GetNowScene()->Update();
 			CAMERA->Update();
 			SOUNDMANAGER->update();
 			ID2D1RenderTarget* renderTarget = GRAPHICMANAGER->GetRenderTarget();
@@ -86,7 +86,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmd
 			renderTarget->Clear(D2D1::ColorF(D2D1::ColorF::Black));
 			//==================================================
 
-			sceneManager::getSingleton()->GetNowScene()->Render();
+			sceneManager::GetInstance()->GetNowScene()->Render();
 
 			//===================================================
 			HRESULT hr = renderTarget->EndDraw();

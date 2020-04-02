@@ -1,5 +1,4 @@
 #pragma once
-#include "singletonBase.h"
 #include <map>
 
 #include "Direct2D.h"
@@ -31,7 +30,7 @@ enum class TextPivot
 	RIGHT_BOTTOM,
 };
 
-class GraphicsManager : public singletonBase<GraphicsManager>
+class GraphicsManager
 {
 private:
 	typedef map<string, Graphic*>							mapImageList;
@@ -59,16 +58,20 @@ private:
 
 private:
 	ID2D1Bitmap* CreateD2DBitmap(wstring file);
-
-public:
 	GraphicsManager()
 	{
 		_d2dFactory = nullptr;
 		_renderTarget = nullptr;
 		_wicFactory = nullptr;
 	};
-	~GraphicsManager() {};
+public:
 
+	~GraphicsManager() {};
+	static GraphicsManager* GetInstance()
+	{
+		static GraphicsManager* instance = new GraphicsManager();
+		return instance;
+	}
 	HRESULT init();
 	HRESULT initRenderTarget();
 	void Release();

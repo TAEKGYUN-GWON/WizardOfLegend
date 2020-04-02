@@ -169,7 +169,6 @@
     <ClInclude Include="FireBall.h" />
     <ClInclude Include="IceBall.h" />
     <ClInclude Include="iniDataManager.h" />
-    <ClInclude Include="JsonManager.h" />
     <ClInclude Include="Knight.h" />
     <ClInclude Include="loadingScene.h" />
     <ClInclude Include="Maptool.h" />
@@ -251,7 +250,6 @@
     <ClCompile Include="FireBall.cpp" />
     <ClCompile Include="IceBall.cpp" />
     <ClCompile Include="iniDataManager.cpp" />
-    <ClCompile Include="JsonManager.cpp" />
     <ClCompile Include="Knight.cpp" />
     <ClCompile Include="loadingScene.cpp" />
     <ClCompile Include="Maptool.cpp" />
@@ -265,6 +263,7 @@
     <ClCompile Include="Probe.cpp" />
     <ClCompile Include="ProceduralTest.cpp" />
     <ClCompile Include="ProgressBar.cpp" />
+    <ClCompile Include="randomFunction.cpp" />
     <ClCompile Include="Rogue.cpp" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="RoomScript.cpp" />
